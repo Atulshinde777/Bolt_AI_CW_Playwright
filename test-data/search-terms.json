@@ -1,0 +1,60 @@
+{
+  "electronics": [
+    "laptop",
+    "smartphone",
+    "headphones",
+    "tablet",
+    "smartwatch",
+    "bluetooth speaker",
+    "wireless earbuds",
+    "gaming console"
+  ],
+  "fashion": [
+    "men shoes",
+    "women dress",
+    "jeans",
+    "t-shirt",
+    "jacket",
+    "handbag",
+    "sunglasses",
+    "watch"
+  ],
+  "books": [
+    "fiction books",
+    "programming books",
+    "self help books",
+    "cookbooks",
+    "biography",
+    "children books",
+    "textbooks",
+    "comic books"
+  ],
+  "home": [
+    "furniture",
+    "kitchen appliances",
+    "home decor",
+    "bedding",
+    "lighting",
+    "storage solutions",
+    "cleaning supplies",
+    "garden tools"
+  ],
+  "sports": [
+    "yoga mat",
+    "running shoes",
+    "fitness equipment",
+    "sports wear",
+    "bicycle",
+    "tennis racket",
+    "gym bag",
+    "water bottle"
+  ],
+  "invalid": [
+    "xyz123notfound",
+    "!@#$%^&*()",
+    "qwertyuiopasdfgh",
+    "00000000000",
+    "............",
+    "abcdefghijklmnopqrstuvwxyz123456789"
+  ]
+}

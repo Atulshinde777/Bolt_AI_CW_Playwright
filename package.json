@@ -1,0 +1,43 @@
+{
+  "name": "amazon-playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright Test Automation Framework for Amazon.in",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:smoke": "node scripts/run-tests.js smoke",
+    "test:regression": "node scripts/run-tests.js regression",
+    "test:mobile": "node scripts/run-tests.js mobile",
+    "test:cross-browser": "node scripts/run-tests.js cross-browser",
+    "test:home": "npx playwright test tests/home-page.spec.js",
+    "test:search": "npx playwright test tests/search-functionality.spec.js",
+    "test:product": "npx playwright test tests/product-page.spec.js",
+    "test:cart": "npx playwright test tests/cart-functionality.spec.js",
+    "report": "npx playwright show-report",
+    "report:generate": "node scripts/run-tests.js report",
+    "install:browsers": "npx playwright install",
+    "clean": "rm -rf reports screenshots logs test-results",
+    "setup": "npm run install:browsers && npm run clean"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "amazon",
+    "e-commerce",
+    "javascript"
+  ],
+  "author": "Test Automation Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.40.0",
+    "@playwright/test-reporter": "^1.40.0",
+    "dotenv": "^16.3.1"
+  }
+}
